@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Juicy Hub – Canada Visa Form</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap">
+<style>
+/* Layout: sticky section index on the left, one long form column; stacks to a single column on phones */
+:root{
+  --bg:#fff4e2; --paper:#ffffff; --ink:#2a1c5c; --muted:#5f5679; --line:#eadfcd; --soft:#fbf6ee;
+  --accent:#ff6a1f; --accent-ink:#ffffff; --accent-soft:#ffeadd; --ok:#1c8a55; --indigo:#2a1c5c; --amber:#ffb43c; --wa:#25d366;
+  --display:"Outfit", "Trebuchet MS", system-ui, sans-serif;
+  --body:"Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;-webkit-text-size-adjust:100%}
+img{max-width:100%}
+.msg{grid-column:1/-1;padding:12px 14px;border-radius:8px;font-size:14px}
+.msg.ok{background:var(--soft);border:1px solid var(--ok);color:var(--ink)}
+.msg.err{background:var(--accent-soft);border:1px solid var(--accent);color:var(--ink)}
+.btn[disabled]{opacity:.6;cursor:progress}
+.wrap{max-width:1120px;margin:0 auto;padding-block:28px 120px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{display:flex;flex-direction:column;gap:10px;padding-bottom:22px;border-bottom:1px solid var(--line);margin-bottom:24px}
+.eyebrow{font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,5vw,46px);line-height:1.05;margin:0;text-wrap:balance;color:var(--indigo)}
+h1 em{font-style:normal;color:var(--accent)}
+.logo{height:auto;width:min(220px,60vw);display:block}
+.pill{align-self:flex-start;background:var(--indigo);color:#fff;font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:.14em;padding:7px 14px;border-radius:999px}
+.wa{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;background:var(--wa);color:#08361c;text-decoration:none;font-weight:700;padding:8px 16px 8px 12px;border-radius:999px}
+.wa small{display:block;font-size:11px;font-weight:600;line-height:1}
+.wa span{font-family:var(--display);font-size:17px;line-height:1.1}
+.foot{margin-top:28px;background:var(--indigo);color:#fff;border-radius:14px;padding:22px clamp(16px,3vw,28px);display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
+.foot b{font-family:var(--display);font-size:20px}
+.foot b em{font-style:normal;color:var(--amber)}
+.foot p{margin:4px 0 0;color:#d9d3ec;font-size:14px}
+.lede{color:var(--muted);max-width:68ch;margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-family:var(--mono);font-size:12px;padding:3px 8px;border:1px solid var(--line);border-radius:4px;color:var(--muted);background:var(--paper)}
+.grid{display:grid;grid-template-columns:230px minmax(0,1fr);gap:32px;align-items:start}
+nav.index{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);display:flex;flex-direction:column;gap:2px}
+nav.index a{display:flex;justify-content:space-between;gap:8px;padding:7px 10px;border-radius:6px;color:var(--ink);text-decoration:none;font-size:14px}
+nav.index a:hover{background:var(--soft)}
+nav.index a .n{font-family:var(--mono);font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap;align-self:center}
+nav.index a.done .n{color:var(--ok)}
+.overall{margin-top:12px;padding:10px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.bar{height:6px;background:var(--soft);border-radius:3px;overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+main{display:flex;flex-direction:column;gap:20px;min-width:0}
+section.sec{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px clamp(16px,3vw,28px);scroll-margin-top:16px}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:4px}
+h2{font-family:var(--display);font-weight:700;font-size:22px;margin:0;color:var(--indigo)}
+.sec-head .n{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.sec-note{color:var(--muted);font-size:14px;margin:0 0 16px;max-width:70ch}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 18px}
+.f{display:flex;flex-direction:column;gap:6px;min-width:0}
+.f.wide{grid-column:1/-1}
+.f label,.f .lbl{font-weight:500;font-size:14px}
+.f .hint{font-size:12.5px;color:var(--muted)}
+.req{color:var(--accent);margin-left:2px}
+input[type=text],input[type=email],input[type=tel],input[type=date],input[type=number],select,textarea{
+  width:100%;font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:9px 11px;min-height:40px}
+textarea{min-height:92px;resize:vertical}
+input:focus,select:focus,textarea:focus,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.mono{font-family:var(--mono)}
+.choices{display:flex;flex-wrap:wrap;gap:8px}
+.choices label{display:inline-flex;align-items:center;gap:7px;padding:7px 12px;border:1px solid var(--line);border-radius:6px;cursor:pointer;font-weight:400;background:var(--paper)}
+.choices label:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.choices input{accent-color:var(--accent);margin:0}
+.check{display:flex;gap:10px;align-items:flex-start;font-weight:400 !important}
+.check input{margin-top:4px;accent-color:var(--accent)}
+.group{grid-column:1/-1;display:flex;flex-direction:column;gap:12px}
+.group-title{font-weight:600;font-size:14px}
+.entry{border:1px dashed var(--line);border-radius:8px;padding:14px;background:var(--soft)}
+.entry-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;gap:8px}
+.entry-head b{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.entry .fields input,.entry .fields select,.entry .fields textarea,.entry .choices label{background:var(--paper)}
+button{font:inherit;cursor:pointer;border-radius:6px}
+.btn{padding:9px 14px;border:1px solid var(--line);background:var(--paper);color:var(--ink);font-weight:500}
+.btn:hover{border-color:var(--muted)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);border-radius:999px;padding:10px 20px;font-weight:700}
+.btn.link{border:none;background:none;color:var(--accent);padding:4px 6px;font-size:13px}
+.add{align-self:flex-start}
+.docs{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 18px}
+.actions{position:fixed;left:0;right:0;bottom:0;background:var(--paper);border-top:1px solid var(--line);z-index:5;
+  padding-block:10px calc(10px + env(safe-area-inset-bottom,0px));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.actions .in{max-width:1120px;margin:0 auto;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.actions .status{color:var(--muted);font-size:13px;margin-right:auto}
+.confirm{display:flex;gap:8px;align-items:center;font-size:13px}
+.out{width:100%;min-height:160px;font-family:var(--mono);font-size:12px}
+@media (max-width:820px){.grid{grid-template-columns:1fr}nav.index{display:none}}
+@media (max-width:560px){.fields,.docs{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <img class="logo" src="data:image/png;base64,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" alt="Juicy Hub" width="220" height="57">
+    <span class="pill">STUDY · WORK · LIVE ABROAD</span>
+    <span class="eyebrow">Canada visitor visa · Client form</span>
+    <h1>Your Canada visa, <em>handled by Juicy Hub</em></h1>
+    <p class="lede">Answer every question exactly as it appears on your passport and documents. We use your answers to prepare your IRCC online application and the Family Information form (IMM 5645). If a question does not apply to you, write “N/A”. Need help? Message us on WhatsApp.</p>
+    <a class="wa" href="https://wa.me/2349162469818" target="_blank" rel="noopener"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.6-.3Z"/></svg><span><small>WhatsApp</small>0916 246 9818</span></a>
+    <div class="meta"><span class="chip">Dates: YYYY-MM-DD</span><span class="chip">Months: YYYY-MM</span><span class="chip">Your answers are kept confidential</span></div>
+  </header>
+  <div class="grid">
+    <nav class="index" id="index" aria-label="Sections"></nav>
+    <main id="form"></main>
+  </div>
+  <footer class="foot"><div><b>Your journey abroad <em>starts here.</em></b><p>Questions about this form? Chat with Juicy Hub on WhatsApp.</p></div><a class="wa" href="https://wa.me/2349162469818" target="_blank" rel="noopener"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.6-.3Z"/></svg><span><small>WhatsApp</small>0916 246 9818</span></a></footer>
+</div>
+
+<div class="actions">
+  <div class="in">
+    <span class="status" id="status">Your answers save automatically on this device.</span>
+    <button class="btn" id="btnClear" type="button">Clear form</button>
+    <span class="confirm" id="confirmClear" hidden>Erase all answers? <button class="btn" id="yesClear" type="button">Erase</button><button class="btn" id="noClear" type="button">Keep</button></span>
+    <button class="btn" id="btnCopy" type="button">Copy answers</button>
+    <button class="btn primary" id="btnSubmit" type="button">Submit application</button>
+  </div>
+</div>
+
+<script>
+const YN=['Yes','No'];
+const MARITAL=['Single','Married','Common-law','Divorced','Separated','Widowed','Annulled marriage'];
+const yes=k=>v=>v[k]==='Yes';
+const SECTIONS=[
+{id:'visit',title:'Purpose of visit',note:'Tell us why you are travelling and your exact plans in Canada.',fields:[
+ {id:'visaType',label:'Type of visa',type:'select',opts:['Visitor visa','Super visa (parent/grandparent)','Transit visa'],req:1},
+ {id:'reason',label:'Reason for visit',type:'select',opts:['Tourism','Visit family or friends','Business meeting / conference','Medical treatment','Other'],req:1},
+ {id:'reasonOther',label:'If other, describe',type:'text',showIf:v=>v.reason==='Other'},
+ {id:'others',label:'Are other family members applying with you at the same time?',type:'yn',req:1},
+ {id:'othersNames',label:'Names of those applying with you',type:'textarea',wide:1,showIf:yes('others')},
+ {id:'enter',label:'Date you will enter Canada',type:'date',req:1},
+ {id:'leave',label:'Date you will leave Canada',type:'date',req:1},
+ {id:'cities',label:'City/cities you will visit',type:'text',hint:'e.g. Toronto, Niagara Falls'},
+ {id:'airline',label:'Airline and route',type:'text',hint:'e.g. Air France, Lagos – Paris – Toronto'},
+ {id:'stay',label:'Where will you stay?',type:'textarea',wide:1,hint:'Hotel name and address, or host’s full address'},
+ {id:'host',label:'Will you visit or stay with anyone in Canada?',type:'yn'},
+ {id:'hostDetails',label:'Host’s full name, relationship to you, address, phone and status in Canada',type:'textarea',wide:1,showIf:yes('host')},
+ {id:'plans',label:'Describe what you will do in Canada',type:'textarea',wide:1,req:1,hint:'Places you plan to visit, events, and why you will return home'}
+]},
+{id:'personal',title:'Personal details',note:'Write your names exactly as on your passport.',fields:[
+ {id:'surname',label:'Surname / last name',type:'text',req:1},
+ {id:'given',label:'Given name(s)',type:'text',req:1},
+ {id:'dob',label:'Date of birth',type:'date',req:1},
+ {id:'gender',label:'Gender',type:'choice',opts:['Male','Female','Another gender'],req:1},
+ {id:'nativeName',label:'Full name in your native script (if different)',type:'text',hint:'For the Family Information form'},
+ {id:'otherName',label:'Have you ever used another name?',type:'yn',req:1,hint:'Maiden name, alias, nickname on documents'},
+ {id:'otherNameDetails',label:'Other name(s) used',type:'text',wide:1,showIf:yes('otherName')},
+ {id:'height',label:'Height (cm)',type:'number'},
+ {id:'eyes',label:'Eye colour',type:'text'},
+ {id:'phoneType',label:'Phone type',type:'select',opts:['Cellular','Home','Business']},
+ {id:'phone',label:'Primary phone number (with country code)',type:'tel',req:1,hint:'e.g. +234 805 000 0000'},
+ {id:'altPhone',label:'Alternative phone number (optional)',type:'tel'},
+ {id:'email',label:'Email address',type:'email',req:1},
+ {id:'nativeLang',label:'Native language / mother tongue',type:'text',req:1},
+ {id:'engFr',label:'Can you communicate in English or French?',type:'select',opts:['English','French','Both','Neither'],req:1},
+ {id:'contactLang',label:'Language IRCC should use to contact you',type:'choice',opts:['English','French']},
+ {id:'langTest',label:'Have you taken an English or French language test?',type:'yn'}
+]},
+{id:'residence',title:'Residence',note:'Your home address in your current country.',fields:[
+ {id:'address',label:'Residential address',type:'textarea',wide:1,req:1,hint:'House number, street, area, city, state, postal code'},
+ {id:'country',label:'Country of residence',type:'text',req:1},
+ {id:'resStatus',label:'Status in that country',type:'select',opts:['Citizen','Permanent resident','Worker','Student','Visitor','Other']},
+ {id:'sameMail',label:'Is your mailing address the same as your residential address?',type:'yn',req:1},
+ {id:'mailAddress',label:'Mailing address',type:'textarea',wide:1,showIf:v=>v.sameMail==='No'},
+ {id:'livedAbroad',label:'In the past 5 years, have you lived in another country for more than 6 months?',type:'yn',req:1,wide:1},
+ {id:'abroad',type:'group',label:'Countries you lived in',item:'Country',showIf:yes('livedAbroad'),fields:[
+   {id:'country',label:'Country',type:'text'},{id:'status',label:'Status there',type:'text'},
+   {id:'from',label:'From (YYYY-MM-DD)',type:'date'},{id:'to',label:'To (YYYY-MM-DD)',type:'date'}]}
+]},
+{id:'identity',title:'Identity and citizenship',fields:[
+ {id:'birthCountry',label:'Country of birth',type:'text',req:1},
+ {id:'birthCity',label:'City / town of birth',type:'text',req:1},
+ {id:'citizenship',label:'Country of citizenship',type:'text',req:1},
+ {id:'sinceBirth',label:'Citizen since birth?',type:'yn',req:1},
+ {id:'citizenFrom',label:'Citizen from (date)',type:'date',showIf:v=>v.sinceBirth==='No'},
+ {id:'dual',label:'Are you a citizen of more than one country?',type:'yn',req:1},
+ {id:'dualDetails',label:'Other citizenship(s) and since when',type:'text',wide:1,showIf:yes('dual')},
+ {id:'bio',label:'Have you given Canada fingerprints and photo (biometrics) in the last 10 years?',type:'yn',req:1,wide:1},
+ {id:'bioDate',label:'Date biometrics were taken',type:'date',showIf:yes('bio')},
+ {id:'natId',label:'Do you have a valid national identity document?',type:'yn',req:1,hint:'NIN slip / national ID card'},
+ {id:'natIdNo',label:'National ID number',type:'text',mono:1,showIf:yes('natId')},
+ {id:'natIdIssue',label:'Date of issue',type:'date',showIf:yes('natId')},
+ {id:'natIdExpiry',label:'Date of expiry (if any)',type:'date',showIf:yes('natId')}
+]},
+{id:'education',title:'Education',note:'List every school after secondary school, including ones you are attending now.',fields:[
+ {id:'secondary',label:'Highest level of education completed',type:'select',opts:['Secondary school','Trade / apprenticeship','Diploma (OND/HND/NCE)','Bachelor’s degree','Master’s degree','Doctorate (PhD)','None']},
+ {id:'postSec',label:'Have you ever studied at a university, polytechnic, college or vocational school?',type:'yn',req:1,wide:1},
+ {id:'schools',type:'group',label:'Schools attended',item:'School',showIf:yes('postSec'),fields:[
+   {id:'name',label:'School or institution',type:'text',wide:1},
+   {id:'from',label:'From (YYYY-MM)',type:'month'},{id:'to',label:'To (YYYY-MM)',type:'month'},
+   {id:'level',label:'Level of study',type:'select',opts:['Certificate','Diploma (OND/HND/NCE)','Bachelor’s','Master’s','Doctorate','Vocational']},
+   {id:'field',label:'Field of study',type:'text'},
+   {id:'address',label:'School address (city, state, country)',type:'text',wide:1}]}
+]},
+{id:'work',title:'Employment and service',note:'List your work history for the past 10 years, starting with your current job. Include unemployment, retirement or business ownership.',fields:[
+ {id:'military',label:'Have you ever served in the military, police, militia, civil defence or any security organization (including reserve or voluntary)?',type:'yn',req:1,wide:1},
+ {id:'service',type:'group',label:'Service details',item:'Service',showIf:yes('military'),fields:[
+   {id:'country',label:'Country',type:'text'},{id:'branch',label:'Branch / unit / department',type:'text'},
+   {id:'rank',label:'Rank(s) held',type:'text'},{id:'location',label:'Location(s) posted',type:'text'},
+   {id:'from',label:'From (YYYY-MM)',type:'month'},{id:'to',label:'To (YYYY-MM) or “Ongoing”',type:'month'},
+   {id:'details',label:'Duties and details',type:'textarea',wide:1}]},
+ {id:'govt',label:'Have you ever held a government position (civil servant, judge, police officer, mayor, MP, etc.)?',type:'yn',wide:1},
+ {id:'jobs',type:'group',label:'Jobs and activities',item:'Job',min:1,fields:[
+   {id:'title',label:'Job title / activity',type:'text'},
+   {id:'type',label:'Type',type:'select',opts:['Employed','Self-employed / business owner','Government position','Student','Unemployed','Retired','Homemaker']},
+   {id:'employer',label:'Company or employer',type:'text'},
+   {id:'jurisdiction',label:'Level (if government): national / state / local',type:'text'},
+   {id:'dept',label:'Department / branch',type:'text'},
+   {id:'from',label:'From (YYYY-MM)',type:'month'},{id:'to',label:'To (YYYY-MM) or “Ongoing”',type:'month'},
+   {id:'address',label:'Employer address (city, state, country)',type:'text'},
+   {id:'duties',label:'Main duties',type:'textarea',wide:1},
+   {id:'income',label:'Monthly salary or income (₦)',type:'text'}]}
+]},
+{id:'travel',title:'Passport and visas',note:'Use the passport you will travel with.',fields:[
+ {id:'docType',label:'Travel document',type:'select',opts:['Regular passport','Diplomatic passport','Official / service passport','Other travel document'],req:1},
+ {id:'passCountry',label:'Country that issued the passport',type:'text',req:1},
+ {id:'passNo',label:'Passport number',type:'text',mono:1,req:1},
+ {id:'passIssue',label:'Date of issue',type:'date',req:1},
+ {id:'passExpiry',label:'Date of expiry',type:'date',req:1},
+ {id:'passPlace',label:'Place of issue',type:'text'},
+ {id:'greenCard',label:'Are you a lawful permanent resident of the USA (Green Card)?',type:'yn',req:1,wide:1},
+ {id:'canVisa',label:'Have you held a Canadian visitor visa in the past 10 years?',type:'yn',req:1,wide:1},
+ {id:'canVisaNo',label:'Canadian visa number / UCI (if known)',type:'text',mono:1,showIf:yes('canVisa')},
+ {id:'usVisa',label:'Do you currently hold a valid US visa?',type:'yn',req:1},
+ {id:'usVisaNo',label:'US visa number',type:'text',mono:1,showIf:yes('usVisa'),hint:'Red number on the bottom right of the visa'},
+ {id:'usVisaExpiry',label:'US visa expiry date',type:'date',showIf:yes('usVisa')},
+ {id:'usVisaOtherPass',label:'Is your US visa in a different (old) passport?',type:'yn',showIf:yes('usVisa')},
+ {id:'oldPassNo',label:'Old passport number',type:'text',mono:1,showIf:v=>v.usVisa==='Yes'&&v.usVisaOtherPass==='Yes'},
+ {id:'oldPassIssue',label:'Old passport issue date',type:'date',showIf:v=>v.usVisa==='Yes'&&v.usVisaOtherPass==='Yes'},
+ {id:'oldPassExpiry',label:'Old passport expiry date',type:'date',showIf:v=>v.usVisa==='Yes'&&v.usVisaOtherPass==='Yes'},
+ {id:'byAir',label:'Are you travelling to Canada by air?',type:'yn',req:1}
+]},
+{id:'history',title:'Travel history',note:'Every trip outside your country in the past 5 years, newest first. Include Umrah/Hajj and trips to neighbouring countries.',fields:[
+ {id:'travelled',label:'Have you travelled outside your country in the past 5 years?',type:'yn',req:1,wide:1},
+ {id:'trips',type:'group',label:'Trips',item:'Trip',showIf:yes('travelled'),fields:[
+   {id:'country',label:'Country',type:'text'},{id:'city',label:'City / location',type:'text'},
+   {id:'from',label:'From (YYYY-MM)',type:'month'},{id:'to',label:'To (YYYY-MM)',type:'month'},
+   {id:'purpose',label:'Purpose of travel',type:'text',wide:1}]},
+ {id:'overstay',label:'Have you ever stayed in Canada longer than allowed, or studied or worked there without permission?',type:'yn',req:1,wide:1},
+ {id:'overstayDetails',label:'Give details',type:'textarea',wide:1,showIf:yes('overstay')},
+ {id:'refused',label:'Have you ever been refused a visa or permit, denied entry, or ordered to leave ANY country?',type:'yn',req:1,wide:1},
+ {id:'refusals',type:'group',label:'Refusals',item:'Refusal',showIf:yes('refused'),fields:[
+   {id:'country',label:'Country',type:'text'},{id:'date',label:'Month and year (YYYY-MM)',type:'month'},
+   {id:'type',label:'Type of visa refused',type:'text'},{id:'reason',label:'Reason given',type:'textarea',wide:1}]}
+]},
+{id:'money',title:'Finances',note:'Show you can pay for your trip and will return home.',fields:[
+ {id:'funds',label:'How much money do you have for this trip? (CAD)',type:'text',req:1,hint:'e.g. 5,000'},
+ {id:'bank',label:'Bank name(s)',type:'text'},
+ {id:'balance',label:'Current account balance (₦)',type:'text'},
+ {id:'assets',label:'Property, land, business or investments you own',type:'textarea',wide:1},
+ {id:'sponsor',label:'Is someone else paying for your trip?',type:'yn',req:1},
+ {id:'sponsorDetails',label:'Sponsor’s name, relationship, address, occupation and amount',type:'textarea',wide:1,showIf:yes('sponsor')},
+ {id:'tripCost',label:'Estimated total cost of trip (flights + hotel + spending)',type:'text'}
+]},
+{id:'spouse',title:'Marital status and spouse',fields:[
+ {id:'marital',label:'Current marital status',type:'select',opts:MARITAL,req:1},
+ {id:'marDate',label:'Date of marriage / start of relationship',type:'date',showIf:v=>['Married','Common-law'].includes(v.marital)},
+ {id:'spSurname',label:'Spouse’s surname',type:'text',showIf:v=>['Married','Common-law','Separated'].includes(v.marital)},
+ {id:'spGiven',label:'Spouse’s given name(s)',type:'text',showIf:v=>['Married','Common-law','Separated'].includes(v.marital)},
+ {id:'spDob',label:'Spouse’s date of birth',type:'date',showIf:v=>['Married','Common-law','Separated'].includes(v.marital)},
+ {id:'spBirth',label:'Spouse’s country of birth',type:'text',showIf:v=>['Married','Common-law','Separated'].includes(v.marital)},
+ {id:'spJob',label:'Spouse’s present occupation',type:'text',showIf:v=>['Married','Common-law','Separated'].includes(v.marital)},
+ {id:'spSameAddr',label:'Does your spouse live at your address?',type:'yn',showIf:v=>['Married','Common-law','Separated'].includes(v.marital)},
+ {id:'spAddr',label:'Spouse’s address',type:'text',wide:1,showIf:v=>v.spSameAddr==='No'&&['Married','Common-law','Separated'].includes(v.marital)},
+ {id:'spCome',label:'Will your spouse travel with you to Canada?',type:'yn',showIf:v=>['Married','Common-law','Separated'].includes(v.marital)},
+ {id:'prevMar',label:'Have you been married or in a common-law relationship before?',type:'yn',wide:1},
+ {id:'prevSpouses',type:'group',label:'Previous spouses',item:'Previous spouse',showIf:yes('prevMar'),fields:[
+   {id:'name',label:'Full name',type:'text'},{id:'dob',label:'Date of birth',type:'date'},
+   {id:'type',label:'Type of relationship',type:'select',opts:['Married','Common-law']},
+   {id:'from',label:'From',type:'date'},{id:'to',label:'To',type:'date'}]}
+]},
+{id:'children',title:'Children',note:'Include ALL sons and daughters, adopted and step-children, of any age, even if they are not travelling.',fields:[
+ {id:'hasKids',label:'Do you have any biological, adopted or step-children?',type:'yn',req:1,wide:1},
+ {id:'kids',type:'group',label:'Children',item:'Child',showIf:yes('hasKids'),fields:[
+   {id:'surname',label:'Surname',type:'text'},{id:'given',label:'Given name(s)',type:'text'},
+   {id:'rel',label:'Relationship',type:'select',opts:['Son','Daughter','Step-son','Step-daughter','Adopted son','Adopted daughter']},
+   {id:'dob',label:'Date of birth',type:'date'},{id:'birth',label:'Country of birth',type:'text'},
+   {id:'marital',label:'Marital status',type:'select',opts:MARITAL},
+   {id:'job',label:'Present occupation',type:'text',hint:'e.g. Student, Pupil, Child'},
+   {id:'deceased',label:'Deceased?',type:'yn'},
+   {id:'address',label:'Present address (if deceased: city, country and date of death)',type:'text',wide:1},
+   {id:'come',label:'Will travel with you to Canada?',type:'yn'}]}
+]},
+{id:'parents',title:'Parents',note:'Give details for both parents, even if they have passed away.',fields:[
+ {id:'parentsList',type:'group',label:'Parents',item:'Parent',min:2,fields:[
+   {id:'rel',label:'Relationship',type:'select',opts:['Mother','Father','Step-mother','Step-father','Adoptive mother','Adoptive father']},
+   {id:'surname',label:'Surname',type:'text'},{id:'given',label:'Given name(s)',type:'text'},
+   {id:'dob',label:'Date of birth',type:'date',hint:'If unknown, give the year'},{id:'birth',label:'Country of birth',type:'text'},
+   {id:'marital',label:'Marital status',type:'select',opts:MARITAL},
+   {id:'job',label:'Present occupation',type:'text'},
+   {id:'deceased',label:'Deceased?',type:'yn'},
+   {id:'death',label:'Date and place of death (city, country)',type:'text',showIf:e=>e.deceased==='Yes'},
+   {id:'address',label:'Present address',type:'text',wide:1,showIf:e=>e.deceased!=='Yes'},
+   {id:'come',label:'Will travel with you to Canada?',type:'yn',showIf:e=>e.deceased!=='Yes'}]}
+]},
+{id:'siblings',title:'Brothers and sisters',note:'Include ALL brothers and sisters, half-brothers and half-sisters, and step-siblings.',fields:[
+ {id:'hasSibs',label:'Do you have any brothers or sisters?',type:'yn',req:1,wide:1},
+ {id:'sibs',type:'group',label:'Siblings',item:'Sibling',showIf:yes('hasSibs'),fields:[
+   {id:'name',label:'Full name',type:'text'},
+   {id:'rel',label:'Relationship',type:'select',opts:['Brother','Sister','Half-brother','Half-sister','Step-brother','Step-sister']},
+   {id:'dob',label:'Date of birth',type:'date'},{id:'birth',label:'Country of birth',type:'text'},
+   {id:'marital',label:'Marital status',type:'select',opts:MARITAL},{id:'job',label:'Present occupation',type:'text'},
+   {id:'address',label:'Present address (if deceased: city, country and date of death)',type:'text',wide:1},
+   {id:'come',label:'Will travel with you to Canada?',type:'yn'}]}
+]},
+{id:'medical',title:'Medical background',fields:[
+ {id:'medExam',label:'Have you had a medical exam by an IRCC panel physician in the last 12 months?',type:'yn',req:1,wide:1},
+ {id:'healthJob',label:'Will you work in Canada in health care, a lab, child care, primary/secondary teaching or in-home care?',type:'yn',req:1,wide:1},
+ {id:'tb',label:'In the last 2 years, were you diagnosed with tuberculosis?',type:'yn',req:1,wide:1},
+ {id:'tbContact',label:'In the last 5 years, have you been in close contact with a person with tuberculosis?',type:'yn',req:1,wide:1},
+ {id:'dialysis',label:'Are you currently receiving dialysis treatment?',type:'yn',req:1,wide:1},
+ {id:'addiction',label:'Have you had a drug or alcohol addiction that made you a threat to yourself or others, or led to hospitalization?',type:'yn',req:1,wide:1},
+ {id:'mental',label:'Have you had a mental health condition that made you a threat to yourself or others, or led to hospitalization?',type:'yn',req:1,wide:1},
+ {id:'syphilis',label:'Have you ever been diagnosed with syphilis?',type:'yn',req:1,wide:1},
+ {id:'medOther',label:'Any other serious physical or mental condition?',type:'yn',wide:1},
+ {id:'medDetails',label:'Give details for any “Yes” answer above',type:'textarea',wide:1,showIf:v=>['medExam','tb','tbContact','dialysis','addiction','mental','syphilis','medOther'].some(k=>v[k]==='Yes')}
+]},
+{id:'background',title:'Background questions',note:'Answer honestly. A “Yes” does not automatically mean refusal, but a false answer can lead to a 5-year ban.',fields:[
+ {id:'crime',label:'Have you ever committed a crime in any country (including driving under the influence)?',type:'yn',req:1,wide:1},
+ {id:'arrested',label:'Have you ever been arrested for any criminal offence in any country?',type:'yn',req:1,wide:1},
+ {id:'charged',label:'Have you ever been charged with any criminal offence in any country?',type:'yn',req:1,wide:1},
+ {id:'convicted',label:'Have you ever been convicted of any criminal offence in any country?',type:'yn',req:1,wide:1},
+ {id:'violentGroup',label:'Are you or have you ever been a member of, or associated with, any group that used violence for political or religious goals, or was linked to criminal activity?',type:'yn',req:1,wide:1},
+ {id:'illTreat',label:'Have you ever witnessed or taken part in ill-treatment of prisoners or civilians, looting, or desecration of religious buildings?',type:'yn',req:1,wide:1},
+ {id:'bgDetails',label:'Give full details for any “Yes” answer above',type:'textarea',wide:1,showIf:v=>['crime','arrested','charged','convicted','violentGroup','illTreat'].some(k=>v[k]==='Yes')}
+]},
+{id:'docs',title:'Documents to send',note:'Tick what you can provide. Send clear scans or PDFs, one file per document.',fields:[
+ {id:'docList',type:'checks',wide:1,opts:['Current passport (all used pages)','Old passport(s) with visas and stamps','US / UK / Schengen visas held','National ID (NIN)','Passport photograph (white background)','Employment letter (position, salary, approved leave)','Leave approval letter','Payslips (last 3–6 months)','Bank statement (last 6 months, stamped)','Business registration (CAC), if self-employed','Property / asset documents','Marriage certificate','Children’s birth certificates','Hotel booking','Flight reservation (not paid ticket)','Letter of invitation from host, if any','Sponsor’s letter and bank statement, if sponsored','Letter of explanation (Juicy Hub can draft this)']},
+ {id:'docNotes',label:'Anything else we should know?',type:'textarea',wide:1}
+]},
+{id:'consent',title:'Consent and declaration',fields:[
+ {id:'contactOk',label:'Do you consent to be contacted by IRCC in the future for research or surveys?',type:'yn',wide:1},
+ {id:'authorise',label:'I authorise Juicy Hub to prepare and submit my application with the information above.',type:'check',wide:1,req:1},
+ {id:'declare',label:'I declare that all answers in this form are true, accurate and complete.',type:'check',wide:1,req:1},
+ {id:'signName',label:'Full name (as signature)',type:'text',req:1},
+ {id:'signDate',label:'Date',type:'date',req:1}
+]}
+];
+
+const KEY='canada-visa-intake-v1';
+let S={};
+try{S=JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){S={}}
+const conds=[];
+let saveT;
+function save(){clearTimeout(saveT);saveT=setTimeout(()=>{try{localStorage.setItem(KEY,JSON.stringify(S));status('Saved on this device.')}catch(e){}},250)}
+function status(t){document.getElementById('status').textContent=t}
+const h=(tag,attrs={},kids=[])=>{const e=document.createElement(tag);for(const[k,v]of Object.entries(attrs)){if(k==='text')e.textContent=v;else if(k==='class')e.className=v;else e.setAttribute(k,v)}(Array.isArray(kids)?kids:[kids]).forEach(c=>c&&e.append(c));return e};
+
+function field(f,store,uid,onChange){
+  const id=uid+'-'+f.id, wrap=h('div',{class:'f'+(f.wide||['textarea','checks','check'].includes(f.type)?' wide':'')});
+  const set=v=>{store[f.id]=v;onChange()};
+  const val=store[f.id]??'';
+  const lab=()=>{const l=h('label',{for:id,text:f.label});if(f.req){l.append(h('span',{class:'req',text:'*','aria-hidden':'true'}))}return l};
+  let input;
+  if(f.type==='yn'||f.type==='choice'){
+    wrap.append(h('span',{class:'lbl',id:id+'-l',text:f.label}));if(f.req)wrap.lastChild.append(h('span',{class:'req',text:'*'}));
+    const c=h('div',{class:'choices',role:'radiogroup','aria-labelledby':id+'-l'});
+    (f.type==='yn'?YN:f.opts).forEach((o,i)=>{const r=h('input',{type:'radio',name:id,id:id+'-'+i,value:o});if(val===o)r.checked=true;r.addEventListener('change',()=>set(o));c.append(h('label',{},[r,document.createTextNode(o)]))});
+    wrap.append(c);
+  }else if(f.type==='check'){
+    const cb=h('input',{type:'checkbox',id});cb.checked=!!val;cb.addEventListener('change',()=>set(cb.checked?'Yes':''));
+    wrap.append(h('label',{class:'check',for:id},[cb,document.createTextNode(f.label)]));
+  }else if(f.type==='checks'){
+    const ul=h('ul',{class:'docs'});const cur=Array.isArray(val)?val:[];
+    f.opts.forEach((o,i)=>{const cb=h('input',{type:'checkbox',id:id+'-'+i});cb.checked=cur.includes(o);
+      cb.addEventListener('change',()=>{const a=new Set(Array.isArray(store[f.id])?store[f.id]:[]);cb.checked?a.add(o):a.delete(o);set([...a])});
+      ul.append(h('li',{},h('label',{class:'check',for:id+'-'+i},[cb,document.createTextNode(o)])))});
+    wrap.append(ul);
+  }else{
+    wrap.append(lab());
+    if(f.type==='select'){input=h('select',{id});input.append(h('option',{value:'',text:'Select…'}));f.opts.forEach(o=>input.append(h('option',{value:o,text:o})));input.value=val}
+    else if(f.type==='textarea'){input=h('textarea',{id});input.value=val}
+    else{const t={date:'date',month:'text',email:'email',tel:'tel',number:'number'}[f.type]||'text';
+      input=h('input',{type:t,id,autocomplete:'off'});if(f.type==='month')input.placeholder='YYYY-MM';input.value=val}
+    if(f.mono||f.type==='month')input.classList.add('mono');
+    input.addEventListener(f.type==='select'?'change':'input',()=>set(input.value.trim()?input.value:''));
+    wrap.append(input);
+  }
+  if(f.hint)wrap.append(h('span',{class:'hint',text:f.hint}));
+  return wrap;
+}
+
+function group(f,uid,root){
+  const box=h('div',{class:'group'});
+  const render=()=>{
+    box.textContent='';
+    if(!Array.isArray(S[f.id]))S[f.id]=[];
+    while(S[f.id].length<(f.min||1))S[f.id].push({});
+    box.append(h('div',{class:'group-title',text:f.label}));
+    S[f.id].forEach((entry,i)=>{
+      const e=h('div',{class:'entry'});const head=h('div',{class:'entry-head'},h('b',{text:f.item+' '+(i+1)}));
+      if(S[f.id].length>(f.min||1)){const rm=h('button',{class:'btn link',type:'button',text:'Remove'});rm.onclick=()=>{S[f.id].splice(i,1);save();render();refresh()};head.append(rm)}
+      const g=h('div',{class:'fields'});
+      f.fields.forEach(sf=>{const w=field(sf,entry,uid+'-'+f.id+i,()=>{save();refresh()});if(sf.showIf)conds.push({el:w,fn:()=>sf.showIf(entry)});g.append(w)});
+      e.append(head,g);box.append(e);
+    });
+    const add=h('button',{class:'btn add',type:'button',text:'+ Add another '+f.item.toLowerCase()});
+    add.onclick=()=>{S[f.id].push({});save();render();refresh();const last=box.querySelectorAll('.entry');last[last.length-1]?.querySelector('input,select,textarea')?.focus()};
+    box.append(add);
+  };
+  render();return box;
+}
+
+const form=document.getElementById('form'),index=document.getElementById('index');
+SECTIONS.forEach((sec,si)=>{
+  const s=h('section',{class:'sec',id:sec.id});
+  s.append(h('div',{class:'sec-head'},[h('h2',{text:sec.title}),h('span',{class:'n',id:'n-'+sec.id})]));
+  if(sec.note)s.append(h('p',{class:'sec-note',text:sec.note}));
+  const g=h('div',{class:'fields'});
+  sec.fields.forEach(f=>{
+    const w=f.type==='group'?group(f,sec.id,g):field(f,S,sec.id,()=>{save();refresh()});
+    if(f.showIf)conds.push({el:w,fn:()=>f.showIf(S)});
+    g.append(w);
+  });
+  s.append(g);form.append(s);
+  const a=h('a',{href:'#'+sec.id},[h('span',{text:sec.title}),h('span',{class:'n',id:'ni-'+sec.id})]);
+  a.addEventListener('click',ev=>{ev.preventDefault();document.getElementById(sec.id).scrollIntoView({behavior:'smooth'})});
+  index.append(a);
+});
+index.append(h('div',{class:'overall'},[h('span',{id:'overallTxt'}),h('div',{class:'bar'},h('i',{id:'overallBar'}))]));
+
+const filled=v=>Array.isArray(v)?v.length>0:!!(v&&String(v).trim());
+function refresh(){
+  for(let i=conds.length-1;i>=0;i--){const c=conds[i];if(!c.el.isConnected){conds.splice(i,1);continue}c.el.hidden=!c.fn()}
+  let T=0,D=0;
+  SECTIONS.forEach(sec=>{
+    let t=0,d=0;
+    sec.fields.forEach(f=>{
+      if(f.showIf&&!f.showIf(S))return;
+      if(f.type==='group'){(S[f.id]||[]).forEach(e=>f.fields.forEach(sf=>{if(sf.showIf&&!sf.showIf(e))return;t++;if(filled(e[sf.id]))d++}))}
+      else if(f.type!=='checks'){t++;if(filled(S[f.id]))d++}
+    });
+    T+=t;D+=d;const txt=d+'/'+t;
+    document.getElementById('n-'+sec.id).textContent=txt+' answered';
+    const ni=document.getElementById('ni-'+sec.id);ni.textContent=txt;ni.parentElement.classList.toggle('done',t>0&&d===t);
+  });
+  const p=T?Math.round(D/T*100):0;
+  document.getElementById('overallTxt').textContent=p+'% complete';
+  document.getElementById('overallBar').style.width=p+'%';
+}
+refresh();
+
+function summary(){
+  const L=['JUICY HUB · CANADA VISITOR VISA – CLIENT ANSWERS','Prepared: '+new Date().toISOString().slice(0,10),''];
+  const v=x=>Array.isArray(x)?(x.length?x.join('; '):'—'):(filled(x)?x:'—');
+  SECTIONS.forEach(sec=>{
+    L.push('== '+sec.title.toUpperCase()+' ==');
+    sec.fields.forEach(f=>{
+      if(f.showIf&&!f.showIf(S))return;
+      if(f.type==='group'){(S[f.id]||[]).forEach((e,i)=>{L.push('-- '+f.item+' '+(i+1));f.fields.forEach(sf=>{if(sf.showIf&&!sf.showIf(e))return;L.push('   '+sf.label+': '+v(e[sf.id]))})})}
+      else if(f.type==='checks'){L.push('Documents available: '+v(S[f.id]))}
+      else L.push(f.label+': '+v(S[f.id]));
+    });
+    L.push('');
+  });
+  return L.join('\n');
+}
+
+document.getElementById('btnCopy').onclick=async()=>{
+  const text=summary();
+  try{await navigator.clipboard.writeText(text);status('Copied. Paste it into WhatsApp and send to Juicy Hub on 0916 246 9818.')}
+  catch(e){
+    let box=document.getElementById('outBox');
+    if(!box){box=h('textarea',{id:'outBox',class:'out','aria-label':'Your answers'});const s=h('section',{class:'sec'},[h('h2',{text:'Your answers'}),h('p',{class:'sec-note',text:'Copy everything in this box and send it to Juicy Hub on WhatsApp: 0916 246 9818.'}),box]);form.append(s)}
+    box.value=text;box.scrollIntoView({behavior:'smooth'});box.focus();box.select();status('Select all the text in the box and copy it.');
+  }
+};
+const cl=document.getElementById('confirmClear'),bc=document.getElementById('btnClear');
+bc.onclick=()=>{cl.hidden=false;bc.hidden=true};
+document.getElementById('noClear').onclick=()=>{cl.hidden=true;bc.hidden=false};
+document.getElementById('yesClear').onclick=()=>{try{localStorage.removeItem(KEY)}catch(e){}S={};location.reload()};
+
+const ENDPOINT='https://formsubmit.co/ajax/jasminesuleiman15@gmail.com';
+function payload(){
+  const name=[S.surname,S.given].filter(filled).join(' ')||'Unnamed client';
+  const o={_subject:'Juicy Hub · Canada visa form – '+name,_template:'table',_captcha:'false'};
+  if(filled(S.email))o._replyto=S.email;
+  const v=x=>Array.isArray(x)?(x.length?x.join('; '):'—'):(filled(x)?String(x):'—');
+  SECTIONS.forEach(sec=>{
+    sec.fields.forEach(f=>{
+      if(f.showIf&&!f.showIf(S))return;
+      if(f.type==='group'){(S[f.id]||[]).forEach((e,i)=>f.fields.forEach(sf=>{if(sf.showIf&&!sf.showIf(e))return;o[sec.title+' › '+f.item+' '+(i+1)+' › '+sf.label]=v(e[sf.id])}))}
+      else if(f.type==='checks')o[sec.title+' › Documents available']=v(S[f.id]);
+      else o[sec.title+' › '+f.label]=v(S[f.id]);
+    });
+  });
+  o['Full summary (plain text)']=summary();
+  return o;
+}
+function note(kind,text){
+  let m=document.getElementById('submitMsg');
+  if(!m){m=h('div',{id:'submitMsg',role:'status'});document.getElementById('consent').querySelector('.fields').append(m)}
+  m.className='msg '+kind;m.textContent=text;m.scrollIntoView({behavior:'smooth',block:'center'});
+}
+document.getElementById('btnSubmit').onclick=async()=>{
+  const missing=[];
+  if(!filled(S.surname))missing.push('surname');
+  if(!filled(S.given))missing.push('given name');
+  if(!filled(S.phone)&&!filled(S.email))missing.push('phone or email');
+  if(S.declare!=='Yes')missing.push('the declaration tick box');
+  if(S.authorise!=='Yes')missing.push('the authorisation tick box');
+  if(!filled(S.signName))missing.push('your full name as signature');
+  if(missing.length){note('err','Before submitting, please fill in: '+missing.join(', ')+'.');return}
+  const b=document.getElementById('btnSubmit');b.disabled=true;b.textContent='Sending…';
+  try{
+    const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(payload())});
+    const j=await r.json().catch(()=>({}));
+    if(r.ok&&String(j.success)==='true'){
+      note('ok','Submitted. Juicy Hub has received your answers and will contact you shortly on WhatsApp or email. You can close this page.');
+      status('Submitted '+new Date().toLocaleString());b.textContent='Submitted';
+      return;
+    }
+    throw new Error(j.message||('Server replied '+r.status));
+  }catch(e){
+    note('err','Your answers could not be sent ('+(e.message||'network error')+'). Check your internet connection and tap Submit again. Your answers are still saved on this device.');
+    b.disabled=false;b.textContent='Submit application';
+  }
+};
+</script>
+</body>
+</html>
